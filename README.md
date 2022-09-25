@@ -1,10 +1,18 @@
 # vintagestory-package-auto-aur
 
-[You need to have node.js installed](https://nodejs.org)
+## Installation & Usage
+
+**⚠ [You need to have node.js installed](https://nodejs.org) ⚠**
+
+### Without installation
 
 ```shell
-$ git clone git@github.com:kane-thornwyrd/vintagestory-package-auto-aur.git
-$ cd vintagestory-package-auto-aur
-$ npm i
-$ npm start [Path to your output directory]
+$ npx vintagestory-package-auto-aur [PATH TO YOUR OUTPUT DIRECTORY]
+```
+
+### With installation
+
+```shell
+$ npm i -g vintagestory-package-auto-aur
+$ vintagestory-package-auto-aur [PATH TO YOUR OUTPUT DIRECTORY]
 ```

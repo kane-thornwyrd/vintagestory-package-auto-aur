@@ -1,14 +1,19 @@
 {
   "name": "vintagestory-package-auto-aur",
-  "version": "0.0.1",
+  "homepage": "https://github.com/kane-thornwyrd/vintagestory-package-auto-aur",
+  "version": "0.0.2",
   "description": "Create the vintagestory AUR package from the latest version available.",
   "main": "src/main.js",
   "bin": {
-    "vintagestory-package-auto-aur": "index.js"
+    "vintagestory-package-auto-aur": "index.sh"
   },
   "scripts": {
     "compile": "pkg --compress Brotli --out-path bin .",
     "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kane-thornwyrd/vintagestory-package-auto-aur.git"
   },
   "keywords": [
     "vintage story",
