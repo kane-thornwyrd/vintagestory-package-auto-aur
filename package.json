@@ -1,0 +1,38 @@
+{
+  "name": "vintagestory-package-auto-aur",
+  "version": "0.0.1",
+  "description": "Create the vintagestory AUR package from the latest version available.",
+  "main": "src/main.js",
+  "bin": {
+    "vintagestory-package-auto-aur": "index.js"
+  },
+  "scripts": {
+    "compile": "pkg --compress Brotli --out-path bin ."
+  },
+  "keywords": [
+    "vintage story",
+    "aur",
+    "automatisation",
+    "update",
+    "tool"
+  ],
+  "author": "Kane Thornwyrd",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "pkg": "5.8.0"
+  },
+  "config": {
+    "pkg": {
+      "outputPath": "bin",
+      "assets": [
+        "assets/**/*"
+      ]
+    }
+  },
+  "dependencies": {
+    "lodash": "4.17.21",
+    "make-fetch-happen": "10.2.1",
+    "meow": "10.1.3",
+    "ora": "6.1.2"
+  }
+}
