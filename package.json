@@ -1,7 +1,7 @@
 {
   "name": "vintagestory-package-auto-aur",
   "homepage": "https://github.com/kane-thornwyrd/vintagestory-package-auto-aur",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Create the vintagestory AUR package from the latest version available.",
   "main": "src/main.js",
   "bin": {
@@ -36,7 +36,6 @@
     }
   },
   "dependencies": {
-    "lodash": "4.17.21",
     "make-fetch-happen": "10.2.1",
     "meow": "10.1.3",
     "ora": "6.1.2"
